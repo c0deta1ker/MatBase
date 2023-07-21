@@ -49,7 +49,6 @@ MATLAB version:   2022a
 MATLAB add-ons (recommended): Database Toolbox, Image Processing Toolbox, Global Optimization Toolbox, Optimization Toolbox, Curve Fitting Toolbox, Parallel Processing Toolbox, Statistics and Machine Learning Toolbox, Signal Processing Toolbox.
 
 ## Authors
-MatBase Code:  
 **Dr. Procopios Constantinou**,  
 Swiss Light Source (SLS),  
 Paul Scherrer Institute (PSI),  
