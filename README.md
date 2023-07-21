@@ -1,6 +1,6 @@
 # MatBase: A comprehensive MATerials DataBASE for photoelectron spectroscopy
 
-MatBase is an app that allows you to explore and analyze the properties and behaviors of various materials using MATLAB. You can use this app to:  
+MatBase is an app that allows you to explore, analyze and extract the properties and photoelectron spectroscopy behaviors of various materials using MATLAB. You can use this app to:  
 - Access a comprehensive database of material properties and photoelectron spectroscopy parameters, and edit it as you wish.  
 - Visualize and manipulate crystal structures in both real and reciprocal space, and calculate the Brillouin zone and 2D slices. 
 - Compute the electron inelastic mean free path for different materials using various formalisms, such as the Universal, TPP-2M, S1, and S2 methods.  
