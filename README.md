@@ -2,12 +2,12 @@
 
 MatBase is an app that allows you to explore and analyze the properties and behaviors of various materials using MATLAB. You can use this app to:  
 - Access a comprehensive database of material properties and photoelectron spectroscopy parameters, and edit it as you wish.  
-- Visualize and manipulate crystal structures in both real and reciprocal space, and calculate the Brillouin zone and 2D slices.  
+- Visualize and manipulate crystal structures in both real and reciprocal space, and calculate the Brillouin zone and 2D slices. 
 - Compute the electron inelastic mean free path for different materials using various formalisms, such as the Universal, TPP-2M, S1, and S2 methods.  
 - Extract the binding energy spectrum, photoionization cross-sections, and photoionization asymmetry parameters of all elements from 1 to 118.  
 
 
-This app is designed for researchers, students, and enthusiasts who are interested in learning more about the physical and chemical properties of materials. Whether you are working on a project, studying for an exam, or just curious about the world of materials science and photoelectron pectroscopy, this app can help you find the information and tools you need. Download MatBase today and discover the fascinating world of materials science!
+This app is designed for researchers, students, and enthusiasts who are interested in learning more about the physical and chemical properties of materials. Whether you are working on a project, studying for an exam, or just curious about the world of materials science and photoelectron spectroscopy, this app can help you find the information and tools you need. Download MatBase today and discover the fascinating world of materials science!
 
 ## Installation  
 1. Download the *MatBase* repository.
@@ -37,11 +37,16 @@ This app is designed for researchers, students, and enthusiasts who are interest
 
 - Physics Constants Database: This is a MATLAB function that loads in many physics constants that can be used for data processing, or modelling of physical systems. Accessible in MATLAB via 'physics_constants()'.  
 
+- Crystallography Database: Contains some MATLAB functions for extracting / viewing the unit cells in both real and reciprocal space, calculate the Brillouin zone, and extract 2D slices through the Brilluoin Zone for data analysis. You can translate and rotate the 2D slices as you wish. For some examples of how to use these functions, see the ‘CrystallographyExamples.mlx’ file.  
+
 - Electron Inelastic Mean Free Path Database (eIMFPD): This is a local MATLAB database that compiles the optical data from the NIST Electron Inelastic-Mean-Free-Path Database (http://dx.doi.org/10.18434/T48C78) so that the results can be easily called and accessed within MATLAB. This is accessible in MATLAB via 'get_eimfpd_props()'. Furthermore, predictive eIMFP formulas's are also available using the (1) Universal, (2) TPP-2M and (3) S1 & S2 formalisms.  
 
 - Photoionisation Cross-Section and Asymmetry Database (PIXSAD): This is a local MATLAB database that compiles the photoionisation cross-section and asymmetry parameter data of the elements. This is useful when modelling the total photoelectron intensity that originates from a given layer of a sample when performing ARPES / XPS experiments. Accessible in MATLAB via 'get_pixsad_props()'.   
 
 - Photoionisation Energy and Fluorescence Database (PIEFD): This is a local MATLAB database that compiles the photoionisation energy and fluorescence yield data of the elements. Accessible in MATLAB via 'get_piefd_props()'. 
+
+
+
 
 
 ## MATLAB Version control  
