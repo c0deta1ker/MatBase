@@ -15,7 +15,7 @@ This app is designed for researchers, students, and enthusiasts who are interest
 3. Make sure you also use *Set Path* to add the repository / folder that contains all of your data to be loaded in.
 4. Type 'App_MatBase' in the MATLAB Command Prompt to boot up the Main Menu App.
 
-## New MatBase Apps
+## MatBase Apps
 **(1) MatBase App**: The main MATLAB App that provides seamless navigation to all other MATLAB apps using the comprehensive Materials Properties Database. Accessible in MATLAB via 'App_MatBase'.
 ![App_MainMenu](MatBase-v1.0.0/0_ReadMeImages/App_MainMenu.png)  
 
