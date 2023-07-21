@@ -165,7 +165,7 @@ end
 %% Figure summary of the real- and reciprocal-space structures
 if plot_results == 1
 
-    fig = figure(); set(fig, 'position', [1,1,950,650]);
+    fig = figure(); set(fig, 'position', [100,100,850,450]);
 
     %% - RECIPROCAL-SPACE FIGURE
     subplot(1,2,1); hold on;
@@ -207,7 +207,7 @@ if plot_results == 1
     % - Figure formatting
     ax = gca;
     % Font properties
-    ax.FontName = 'Helvetica'; ax.FontSize = 14;
+    ax.FontName = 'Helvetica'; ax.FontSize = 12;
     % Tick properties
     ax.TickLabelInterpreter = 'latex';
     ax.TickDir = 'both';
@@ -237,7 +237,7 @@ if plot_results == 1
     % - Figure formatting
     ax = gca;
     % Font properties
-    ax.FontName = 'Helvetica'; ax.FontSize = 14;
+    ax.FontName = 'Helvetica'; ax.FontSize = 12;
     % Tick properties
     ax.TickLabelInterpreter = 'latex';
     ax.TickDir = 'both';
