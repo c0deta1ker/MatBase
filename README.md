@@ -17,10 +17,10 @@ This app is designed for researchers, students, and enthusiasts who are interest
 
 ## New MatBase Apps
 **(1) MatBase App**: The main MATLAB App that provides seamless navigation to all other MATLAB apps using the comprehensive Materials Properties Database. Accessible in MATLAB via 'App_MatBase'.
-![App_MainMenu](MatBase\MatBase-v1.0.0\0_ReadMeImages\App_MainMenu.png)  
+![App_MainMenu](MatBase-v1.0.0\0_ReadMeImages\App_MainMenu.png)  
 
 **(2) Materials Database Editor App**: Effortlessly manage the Materials Properties Database with this user-friendly app. Add, delete, and edit entries with ease, streamlining your workflow and enhancing the efficiency of other apps that utilize the database for calculations. Accessible in MATLAB via the MatBase Main Menu, or explicitely by typing 'App_MatBase_DatabaseEditor'.
-![App_MaterialsDatabaseEditor](MatBase/MatBase-v1.0.0/0_ReadMeImages/App_MaterialsDatabaseEditor.png)  
+![App_MaterialsDatabaseEditor](MatBase-v1.0.0/0_ReadMeImages/App_MaterialsDatabaseEditor.png)  
 
 **(3) Crystallography App**: Explore the intricacies of crystal structures with our powerful visualization app. View unit cells in both real and reciprocal space, calculate the Brillouin zone, and extract 2D slices for in-depth analysis. Conveniently access material parameters from the Materials Properties Database or manually enter data for materials not included in the database. Unlock new insights and enhance your understanding of crystal structures with ease! Accessible in MATLAB via the MatBase Main Menu, or explicitely by typing 'App_MatBase_Crystallography'.
 ![App_Crystallography](MatBase/MatBase-v1.0.0/0_ReadMeImages/App_Crystallography.png)  
