@@ -36,6 +36,10 @@ function imfp = IMFP_CALC(formalism, ke_dat, args)
 %           energy-dependent electron inelastic mean free path,” 
 %           Surf. Interface Anal., vol. 44, no. 4, pp. 497–503, 2012, 
 %           doi: 10.1002/sia.4816.
+%
+%   EXAMPLE #1: Calculatng TPP2M IMFP for Silicon at 500 eV elecron energy.
+%   Using the Materials Properties Database:            imfp = IMFP_CALC("tpp2m", 500, "Si")
+%   If the material parameters are not known, then:     imfp = IMFP_CALC("tpp2m", 500, [2.33,28.0850,1.107,4])
 
 %% Default parameters
 % - Default formalism
