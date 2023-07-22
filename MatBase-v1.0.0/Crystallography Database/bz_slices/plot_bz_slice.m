@@ -1,4 +1,4 @@
-function h = plot_bz_slice(bzSlice, plot_args)
+function h = plot_bz_slice(bzSlice, varargin)
 % h = plot_bz_slice(bzSlice, plot_args)
 %   This is a function that plots the planar Brilluoin zone 
 %   extracted from the 'get_bz_slice()' function.
@@ -7,19 +7,19 @@ function h = plot_bz_slice(bzSlice, plot_args)
 %
 %   IN:
 %   -   bzSlice:        MATLAB data structure containing BZ slice data from 'get_bz_slice()'
-%   -   plot_args:      plot arguments for the Brilluoin zone slice
+%   -   varargin:       LineSpec arguments: Line style, marker, and color, specified as a string scalar or character vector containing symbols.
 %
 %   OUT: (none)
 
 %% Default parameters
-if nargin < 2; plot_args = []; end
-if isempty(plot_args); plot_args = []; end
+if nargin < 2; varargin = {}; end
+if isempty(varargin); varargin = {}; end
 %% - 1 - Initialising the transformation parameters
 hold on;
 ax = gca;
 XLim = ax.XLim; YLim = ax.YLim; 
 for i = 1:length(bzSlice.X)
-    h(i) = plot(bzSlice.X{i}, bzSlice.Y{i}, 'k-');
+    h(i) = plot(bzSlice.X{i}, bzSlice.Y{i}, 'k-', varargin{:});
 end
 axis([XLim, YLim]);
 end
