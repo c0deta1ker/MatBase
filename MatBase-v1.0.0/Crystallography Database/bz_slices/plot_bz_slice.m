@@ -1,5 +1,5 @@
 function h = plot_bz_slice(bzSlice, varargin)
-% h = plot_bz_slice(bzSlice, plot_args)
+% h = plot_bz_slice(bzSlice, varargin)
 %   This is a function that plots the planar Brilluoin zone 
 %   extracted from the 'get_bz_slice()' function.
 %
