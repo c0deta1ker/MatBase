@@ -14,7 +14,7 @@ function h = plot_bz_slice(bzSlice, varargin)
 %% Default parameters
 if nargin < 2; varargin = {}; end
 if isempty(varargin); varargin = {}; end
-%% - 1 - Initialising the transformation parameters
+%% - 1 - Plotting the BZ slices
 hold on;
 ax = gca;
 XLim = ax.XLim; YLim = ax.YLim; 
