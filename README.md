@@ -8,7 +8,11 @@
 - Model an N-layer sample stack to determine the PES intensity contribution from each layer.  
 
 
-This app is designed for researchers, students, and enthusiasts who are interested in learning more about the physical and chemical properties of materials. Whether you are working on a project, studying for an exam, or just curious about the world of materials science and photoelectron spectroscopy, this app can help you find the information and tools you need. Download MatBase today and discover the fascinating world of materials science!
+This app is designed for researchers, students, and enthusiasts who are interested in learning more about the physical and chemical properties of materials. Whether you are working on a project, studying for an exam, or just curious about the world of materials science and photoelectron spectroscopy, this app can help you find the information and tools you need. Download MatBase today and discover the fascinating world of materials science!  
+
+
+If you are interested in photoelectron spectroscopy data analysis tools, we recommend downloading [ARPEScape](https://github.com/c0deta1ker/ARPEScape), a powerful and convenient MATLAB-based analysis codebase that allows you to load, process, simulate, analyse and fit data from several PES techniques, such as X-ray photoelectron spectroscopy (XPS) and angle-resolved photoelectron spectroscopy (ARPES).  
+
 
 ## Installation  
 1. Download the *MatBase* repository.
