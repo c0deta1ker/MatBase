@@ -93,7 +93,7 @@ ypts1 = ypts1(b_indx);
 l=1;
 % Iterating over all (or most of!) reciprocal space
 xdim = 6;
-ydim = 20;
+ydim = 100;
 for i = -xdim:xdim
     for j = -ydim:ydim
         % -- For the (100) plane
