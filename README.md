@@ -73,63 +73,63 @@ email: procopios.constantinou@psi.ch
 
 ## References
 
-**Inelastic Mean-Free Path (IMFP) Sources**
+**Inelastic Mean-Free Path (IMFP) Sources**  
 Universal (1979):    
-[1](http://dx.doi.org/10.18434/T48C78) _Seah, M. Pl, and W. A. Dench. "Quantitative electron spectroscopy of surfaces: A standard data base for electron inelastic mean free paths in solids." Surface and interface analysis 1.1 (1979): 2-11_  
+[[1](http://dx.doi.org/10.18434/T48C78)] _Seah, M. Pl, and W. A. Dench. "Quantitative electron spectroscopy of surfaces: A standard data base for electron inelastic mean free paths in solids." Surface and interface analysis 1.1 (1979): 2-11_  
 
 TPP-2M Formalism (1994):      
-[2](https://doi.org/10.1002/sia.740010103) _Tanuma, Shigeo, Cedric J. Powell, and David R. Penn. "Calculations of electron inelastic mean free paths. V. Data for 14 organic compounds over the 50–2000 eV range." Surface and interface analysis 21.3 (1994): 165-176_  
-[3](https://doi.org/10.1002/sia.1526) _Tanuma, Shigeo, Cedric J. Powell, and David R. Penn. "Calculation of electron inelastic mean free paths (IMFPs) VII. Reliability of the TPP‐2M IMFP predictive equation." Surface and interface analysis 35.3 (2003): 268-275_    
-[4](https://doi.org/10.1002/sia.4816) _Seah, M. P. "An accurate and simple universal curve for the energy‐dependent electron inelastic mean free path." Surface and interface analysis 44.4 (2012): 497-503_    
-[5](https://doi.org/10.1002/sia.3522) _Tanuma, Shigeo, C. J. Powell, and D. R. Penn. "Calculations of electron inelastic mean free paths. IX. Data for 41 elemental solids over the 50 eV to 30 keV range." Surface and interface analysis 43.3 (2011): 689-713_    
+[[2](https://doi.org/10.1002/sia.740010103)] _Tanuma, Shigeo, Cedric J. Powell, and David R. Penn. "Calculations of electron inelastic mean free paths. V. Data for 14 organic compounds over the 50–2000 eV range." Surface and interface analysis 21.3 (1994): 165-176_  
+[[3](https://doi.org/10.1002/sia.1526)] _Tanuma, Shigeo, Cedric J. Powell, and David R. Penn. "Calculation of electron inelastic mean free paths (IMFPs) VII. Reliability of the TPP‐2M IMFP predictive equation." Surface and interface analysis 35.3 (2003): 268-275_    
+[[4](https://doi.org/10.1002/sia.4816)] _Seah, M. P. "An accurate and simple universal curve for the energy‐dependent electron inelastic mean free path." Surface and interface analysis 44.4 (2012): 497-503_    
+[[5](https://doi.org/10.1002/sia.3522)] _Tanuma, Shigeo, C. J. Powell, and D. R. Penn. "Calculations of electron inelastic mean free paths. IX. Data for 41 elemental solids over the 50 eV to 30 keV range." Surface and interface analysis 43.3 (2011): 689-713_    
 
-NIST Electron Inelastic-Mean-Free-Path Database (1999):     
-[6] [NIST](http://dx.doi.org/10.18434/T48C78) Optical Experiment Data  
+NIST Electron IMFP Database (1999):     
+[[6](http://dx.doi.org/10.18434/T48C78)] NIST Optical Experiment Data  
 
 S1 & S2 Formalism (2011):     
-[4](https://doi.org/10.1002/sia.4816) _Seah, M. P. "An accurate and simple universal curve for the energy‐dependent electron inelastic mean free path." Surface and interface analysis 44.4 (2012): 497-503_    
+[[4](https://doi.org/10.1002/sia.4816)] _Seah, M. P. "An accurate and simple universal curve for the energy‐dependent electron inelastic mean free path." Surface and interface analysis 44.4 (2012): 497-503_    
 
 S3 & S4 Formalism (2012):    
-[7](https://doi.org/10.1002/sia.5033) _Seah, M. P. "Simple universal curve for the energy‐dependent electron attenuation length for all materials." Surface and interface analysis 44.10 (2012): 1353-1359_   
+[[7](https://doi.org/10.1002/sia.5033)] _Seah, M. P. "Simple universal curve for the energy‐dependent electron attenuation length for all materials." Surface and interface analysis 44.10 (2012): 1353-1359_   
 
 JTP Formalism (2023):    
-[8](https://doi.org/10.1002/sia.7217) _Jablonski, Aleksander, Shigeo Tanuma, and Cedric J. Powell. "Calculations of electron inelastic mean free paths (IMFPs). XIV. Calculated IMFPs for LiF and Si3N4 and development of an improved predictive IMFP formula." Surface and Interface Analysis 55.8 (2023): 609-637_   
+[[8](https://doi.org/10.1002/sia.7217)] _Jablonski, Aleksander, Shigeo Tanuma, and Cedric J. Powell. "Calculations of electron inelastic mean free paths (IMFPs). XIV. Calculated IMFPs for LiF and Si3N4 and development of an improved predictive IMFP formula." Surface and Interface Analysis 55.8 (2023): 609-637_   
 
-** Photoionization Energies, Cross-Sections & Asymmetry Sources **  
+**Photoionization Energies, Cross-Sections & Asymmetry Sources**  
 Scofield Database (1973):  
-[9](https://doi.org/10.2172/4545040) _Scofield, J. H. "Theoretical photoionization cross sections from 1 to 1500 keV"_   
+[[9](https://doi.org/10.2172/4545040)] _Scofield, J. H. "Theoretical photoionization cross sections from 1 to 1500 keV"_   
 
 Yeh & Lindau Database (1985):   
 [[10](https://doi.org/10.1016/0092-640X(85)90016-6)] _Yeh, J. J., and I. Lindau. "Atomic subshell photoionization cross sections and asymmetry parameters: 1⩽ Z⩽ 103." Atomic data and nuclear data tables 32.1 (1985): 1-155_   
 
 Moulder Binding Energies Database (1993):   
-[11](https://scholar.google.com/scholar_url?url=https://www.researchgate.net/profile/Akif-Zeb/post/How_can_I_evaluate_at_of_N_in_TiO2_using_XPS_technique/attachment/5f3ebac4ce377e00016e3bc5/AS%253A926669195993088%25401597946561045/download/MANXPS.pdf&hl=en&sa=T&oi=gsb-ggp&ct=res&cd=0&d=11053645406167494942&ei=Aw3XZr_mFv-Xy9YPgcCeoQo&scisig=AFWwaeajp-vE3wtFLu1NvP33L_uI) _Moulder, John F. et al. “Handbook of X-Ray Photoelectron Spectroscopy.” (1992)._   
+[[11](https://scholar.google.com/scholar_url?url=https://www.researchgate.net/profile/Akif-Zeb/post/How_can_I_evaluate_at_of_N_in_TiO2_using_XPS_technique/attachment/5f3ebac4ce377e00016e3bc5/AS%253A926669195993088%25401597946561045/download/MANXPS.pdf&hl=en&sa=T&oi=gsb-ggp&ct=res&cd=0&d=11053645406167494942&ei=Aw3XZr_mFv-Xy9YPgcCeoQo&scisig=AFWwaeajp-vE3wtFLu1NvP33L_uI)] _Moulder, John F. et al. “Handbook of X-Ray Photoelectron Spectroscopy.” (1992)._   
 
 Trzhaskovskaya Database (2018-2019):    
-[12](https://doi.org/10.1016/j.adt.2017.04.003) _Trzhaskovskaya, M. B., and V. G. Yarzhemsky. "Dirac–Fock photoionization parameters for HAXPES applications." Atomic Data and Nuclear Data Tables 119 (2018): 99-174._   
+[[12](https://doi.org/10.1016/j.adt.2017.04.003)] _Trzhaskovskaya, M. B., and V. G. Yarzhemsky. "Dirac–Fock photoionization parameters for HAXPES applications." Atomic Data and Nuclear Data Tables 119 (2018): 99-174._   
 [13](https://doi.org/10.1016/j.adt.2019.05.001) _Trzhaskovskaya, M. B., and V. G. Yarzhemsky. "Dirac–Fock photoionization parameters for HAXPES applications, Part II: Inner atomic shells." Atomic Data and Nuclear Data Tables 129 (2019): 101280_   
 
 Cant Database (2018-2019):    
-[14](https://doi.org/10.1002/sia.7059) _Cant, David JH, et al. "Quantification of hard X‐ray photoelectron spectroscopy: Calculating relative sensitivity factors for 1.5‐to 10‐keV photons in any instrument geometry." Surface and Interface Analysis 54.4 (2022): 442-454_   
+[[14](https://doi.org/10.1002/sia.7059)] _Cant, David JH, et al. "Quantification of hard X‐ray photoelectron spectroscopy: Calculating relative sensitivity factors for 1.5‐to 10‐keV photons in any instrument geometry." Surface and Interface Analysis 54.4 (2022): 442-454_   
 
-** Materials Properties Database Sources **  
-[15](https://www.wolframalpha.com/) _Electronegativity, electron affinity, ionisation energies, temperatures and crystal structures_   
-[16](https://www.schoolmykids.com/learn/periodic-table-of-elements/) _Temperatures, crystal structures, unit cell parameters, electronic and magnetic properties_   
-[17](https://doi.org/10.1063/1.3253115/) _Strehlow, W. H., and Earl L. Cook. "Compilation of energy band gaps in elemental and binary compound semiconductors and insulators." (1973): 163-200._   
-[18](https://en.wikipedia.org/) _Band-gap estimates,  temperatures,  crystal structures,  unit cell parameters,  electronic and magnetic properties_   
-[19](https://pubchem.ncbi.nlm.nih.gov/) _Atomic weights of elements and compounds_   
+**Materials Properties Database Sources**  
+[[15](https://www.wolframalpha.com/)] _Electronegativity, electron affinity, ionisation energies, temperatures and crystal structures_   
+[[16](https://www.schoolmykids.com/learn/periodic-table-of-elements/)] _Temperatures, crystal structures, unit cell parameters, electronic and magnetic properties_   
+[[17](https://doi.org/10.1063/1.3253115/)] _Strehlow, W. H., and Earl L. Cook. "Compilation of energy band gaps in elemental and binary compound semiconductors and insulators." (1973): 163-200._   
+[[18](https://en.wikipedia.org/)] _Band-gap estimates,  temperatures,  crystal structures,  unit cell parameters,  electronic and magnetic properties_   
+[[19](https://pubchem.ncbi.nlm.nih.gov/)] _Atomic weights of elements and compounds_   
 
-** Useful PES Quantification Literature **  
-[20](https://doi.org/10.1016/0009-2614(76)80496-4) _Hill, J. M., et al. "Properties of oxidized silicon as determined by angular-dependent X-ray photoelectron spectroscopy." Chemical Physics Letters 44.2 (1976): 225-231_   
-[21](https://doi.org/10.1002/sia.5934) _Walton, J., et al. "Film thickness measurement and contamination layer correction for quantitative XPS." Surface and Interface Analysis 48.3 (2016): 164-172_   
-[22](https://doi.org/10.1116/1.5141395) _Shard, Alexander G. "Practical guides for x-ray photoelectron spectroscopy: Quantitative XPS." Journal of Vacuum Science & Technology A 38.4 (2020)_   
+**Useful PES Quantification Literature**  
+[[20](https://doi.org/10.1016/0009-2614(76)80496-4)] _Hill, J. M., et al. "Properties of oxidized silicon as determined by angular-dependent X-ray photoelectron spectroscopy." Chemical Physics Letters 44.2 (1976): 225-231_   
+[[21](https://doi.org/10.1002/sia.5934)] _Walton, J., et al. "Film thickness measurement and contamination layer correction for quantitative XPS." Surface and Interface Analysis 48.3 (2016): 164-172_   
+[[22](https://doi.org/10.1116/1.5141395)] _Shard, Alexander G. "Practical guides for x-ray photoelectron spectroscopy: Quantitative XPS." Journal of Vacuum Science & Technology A 38.4 (2020)_   
 
-** Useful Websites for XPS Information & Application Notes **    
-[23](https://srdata.nist.gov/xps/) NIST X-ray Photoelectron Spectroscopy Database  
-[24](https://www.xpsfitting.com/search/label/About%20This%20Site) Surface Science Western laboratories (XPS Reference Pages)  
-[25](https://xpsdatabase.net/) B. Vincent Crist: International XPS Database  
-[26](https://xpslibrary.com/) B. Vincent Crist: Information and Application Notes  
-[27](https://www.xpsdata.com/xpsdata.htm) Information and Application Notes  
+**Useful Websites for XPS Information & Application Notes**    
+[[23](https://srdata.nist.gov/xps/)] NIST X-ray Photoelectron Spectroscopy Database  
+[[24](https://www.xpsfitting.com/search/label/About%20This%20Site)] Surface Science Western laboratories (XPS Reference Pages)  
+[[25](https://xpsdatabase.net/)] B. Vincent Crist: International XPS Database  
+[[26](https://xpslibrary.com/)] B. Vincent Crist: XPS Information and Application Notes  
+[[27](https://www.xpsdata.com/xpsdata.htm)] XPS Information and Application Notes  
 
 
 ## License  
