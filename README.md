@@ -43,6 +43,8 @@ This app is designed for researchers, students, and enthusiasts who are interest
 
 **(5) Photoionization Database App**: Extract the binding energy spectrum, photoionization cross-sections, and photoionization asymmetry parameters of all elements between 1-118 with our powerful app. Easily identify the best core-levels to probe by finding the maximum cross-sections and gain a comprehensive overview of the core-level spectra of all elements! Accessible in MATLAB via the MatBase Main Menu, or explicitely by typing 'App_MatBase_Photoionization'.
 ![App_MatBase_Photoionization](MatBase-v1.2/0_ReadMeImages/App_MatBase_Photoionization.png)  
+![App_MatBase_XPSSensitivityFactor](MatBase-v1.2/0_ReadMeImages/App_MatBase_XPSSensitivityFactor.png)   
+  
 
 **(6) PES Curve Fitting App**: Easily load your XPS data from a standard .txt file and construct a series of curves, including principal and spin-orbit split components. Begin by developing an initial model (using Gaussian, Lorentzian, Voigt and Doniach-Sunjic Peak Shapes), applying background subtraction (Polynomial, Shirley, and Tougaard) and setting constraints, an optimization algorithm is then run to achieve the best fit. Accessible in MATLAB via the MatBase Main Menu, or explicitely by typing 'App_MatBase_PESCurveFitter'.  
 ![App_MatBase_PESCurveFitter](MatBase-v1.2/0_ReadMeImages/App_MatBase_PESCurveFitter.png)     
