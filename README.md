@@ -107,7 +107,7 @@ Moulder Binding Energies Database (1993):
 
 Trzhaskovskaya Database (2018-2019):    
 [[12](https://doi.org/10.1016/j.adt.2017.04.003)] _Trzhaskovskaya, M. B., and V. G. Yarzhemsky. "Dirac–Fock photoionization parameters for HAXPES applications." Atomic Data and Nuclear Data Tables 119 (2018): 99-174._   
-[13](https://doi.org/10.1016/j.adt.2019.05.001) _Trzhaskovskaya, M. B., and V. G. Yarzhemsky. "Dirac–Fock photoionization parameters for HAXPES applications, Part II: Inner atomic shells." Atomic Data and Nuclear Data Tables 129 (2019): 101280_   
+[[13](https://doi.org/10.1016/j.adt.2019.05.001)] _Trzhaskovskaya, M. B., and V. G. Yarzhemsky. "Dirac–Fock photoionization parameters for HAXPES applications, Part II: Inner atomic shells." Atomic Data and Nuclear Data Tables 129 (2019): 101280_   
 
 Cant Database (2018-2019):    
 [[14](https://doi.org/10.1002/sia.7059)] _Cant, David JH, et al. "Quantification of hard X‐ray photoelectron spectroscopy: Calculating relative sensitivity factors for 1.5‐to 10‐keV photons in any instrument geometry." Surface and Interface Analysis 54.4 (2022): 442-454_   
@@ -127,9 +127,10 @@ Cant Database (2018-2019):
 **Useful Websites for XPS Information & Application Notes**    
 [[23](https://srdata.nist.gov/xps/)] NIST X-ray Photoelectron Spectroscopy Database  
 [[24](https://www.xpsfitting.com/search/label/About%20This%20Site)] Surface Science Western laboratories (XPS Reference Pages)  
-[[25](https://xpsdatabase.net/)] B. Vincent Crist: International XPS Database  
-[[26](https://xpslibrary.com/)] B. Vincent Crist: XPS Information and Application Notes  
-[[27](https://www.xpsdata.com/xpsdata.htm)] XPS Information and Application Notes  
+[[25](https://www.xpsdata.com/xpsdata.htm)] XPS Information and Application Notes   
+[[26](https://xpsdatabase.net/)] B. Vincent Crist: International XPS Database  
+[[27](https://xpslibrary.com/)] B. Vincent Crist: XPS Information and Application Notes  
+[[28](https://a-x-s.org/research/cross-sections/)] A. Regoutz: Source of the Digitization of Photoionization Parameters  
 
 
 ## License  
