@@ -73,7 +73,7 @@ email: procopios.constantinou@psi.ch
 
 ## References
 
-** Inelastic Mean-Free Path (IMFP) Sources **
+**Inelastic Mean-Free Path (IMFP) Sources**
 Universal (1979):    
 [1](http://dx.doi.org/10.18434/T48C78) _Seah, M. Pl, and W. A. Dench. "Quantitative electron spectroscopy of surfaces: A standard data base for electron inelastic mean free paths in solids." Surface and interface analysis 1.1 (1979): 2-11_  
 
@@ -102,14 +102,14 @@ Scofield Database (1973):
 Yeh & Lindau Database (1985):   
 [[10](https://doi.org/10.1016/0092-640X(85)90016-6)] _Yeh, J. J., and I. Lindau. "Atomic subshell photoionization cross sections and asymmetry parameters: 1⩽ Z⩽ 103." Atomic data and nuclear data tables 32.1 (1985): 1-155_   
 
-Moulder Binding Energies Database (1993): 
+Moulder Binding Energies Database (1993):   
 [11](https://scholar.google.com/scholar_url?url=https://www.researchgate.net/profile/Akif-Zeb/post/How_can_I_evaluate_at_of_N_in_TiO2_using_XPS_technique/attachment/5f3ebac4ce377e00016e3bc5/AS%253A926669195993088%25401597946561045/download/MANXPS.pdf&hl=en&sa=T&oi=gsb-ggp&ct=res&cd=0&d=11053645406167494942&ei=Aw3XZr_mFv-Xy9YPgcCeoQo&scisig=AFWwaeajp-vE3wtFLu1NvP33L_uI) _Moulder, John F. et al. “Handbook of X-Ray Photoelectron Spectroscopy.” (1992)._   
 
-Trzhaskovskaya Database (2018-2019):   
+Trzhaskovskaya Database (2018-2019):    
 [12](https://doi.org/10.1016/j.adt.2017.04.003) _Trzhaskovskaya, M. B., and V. G. Yarzhemsky. "Dirac–Fock photoionization parameters for HAXPES applications." Atomic Data and Nuclear Data Tables 119 (2018): 99-174._   
 [13](https://doi.org/10.1016/j.adt.2019.05.001) _Trzhaskovskaya, M. B., and V. G. Yarzhemsky. "Dirac–Fock photoionization parameters for HAXPES applications, Part II: Inner atomic shells." Atomic Data and Nuclear Data Tables 129 (2019): 101280_   
 
-Cant Database (2018-2019):   
+Cant Database (2018-2019):    
 [14](https://doi.org/10.1002/sia.7059) _Cant, David JH, et al. "Quantification of hard X‐ray photoelectron spectroscopy: Calculating relative sensitivity factors for 1.5‐to 10‐keV photons in any instrument geometry." Surface and Interface Analysis 54.4 (2022): 442-454_   
 
 ** Materials Properties Database Sources **  
