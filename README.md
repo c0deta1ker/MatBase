@@ -41,19 +41,19 @@ This app is designed for researchers, students, and enthusiasts who are interest
 
 
 ## List of Available Databases  
-- **Material Properties Database (MPD)**: This is a local MATLAB database that compiles the most useful physical, electronic, optical and magnetic material properties of elements / compounds. The data is taken from a range of sources, where the 'average' values are used for parameters that had more than 1 unique value. Accessible in MATLAB via 'get_mpd_props()'.  
+- **Material Properties Database (MPD)**: This is a local MATLAB database that compiles the most useful physical, electronic, optical and magnetic material properties of elements / compounds. The data is taken from a range of sources, where the 'average' values are used for parameters that had more than 1 unique value. Accessible in MATLAB via the function 'get_mpd_props()'.   
 
-- **Physics Constants Database**: This is a MATLAB function that loads in many physics constants that can be used for data processing, or modelling of physical systems. Accessible in MATLAB via 'physics_constants()'.  
+- **Physics Constants Database**: This is a MATLAB function that loads in many physics constants that can be used for data processing, or modelling of physical systems. Accessible in MATLAB via the function 'physics_constants()'.    
 
-- **Crystallography Database**: Contains some MATLAB functions for extracting / viewing the unit cells in both real and reciprocal space, calculate the Brillouin zone, and extract 2D slices through the Brilluoin Zone for data analysis. You can translate and rotate the 2D slices as you wish. For some examples of how to use these functions, see the ‘CrystallographyExamples.mlx’ file.  
+- **Crystallography Database**: This tool offers a suite of functions for extracting and viewing crystal unit cells in both real and reciprocal space. The materials database includes the lattice types and vectors for most elemental materials and some compounds. Additionally, you can extract 2D slices through the Brillouin Zone and obtain a projected view of the tessellated extended Brillouin Zone structure; you can also translate and rotate these 2D slices to match data overlays as needed.      
 
-- **Electron Inelastic Mean Free Path Database (eIMFPD)**: This is a local MATLAB database that compiles the optical data from the NIST Electron Inelastic-Mean-Free-Path Database (http://dx.doi.org/10.18434/T48C78) so that the results can be easily called and accessed within MATLAB. This is accessible in MATLAB via 'get_eimfpd_props()'. Furthermore, predictive eIMFP formulas's are also available using the (1) Universal, (2) TPP-2M and (3) S1 & S2 formalisms.  
+- **Electron Inelastic Mean Free Path Database (IMFPD)**: This is a local MATLAB database that allows you to calculate the electron inelastic mean free path (IMFP) easily. A range of IMFP formalisms are included, such as the Optical (NIST), Universal, TPP-2M, S1, S2, S3, S4 and JTP methods to achieve the most accurate results. This is interfaced with the materials database includes the lattice types and vectors for most elemental materials and some compounds, meaning that many parameters for inputs are already known. Accessible in MATLAB via the function 'calc_imfp()' or a dedicated UI App by calling 'App_MatBase'.    
 
-- **Photoionisation Cross-Section and Asymmetry Database (PIXSAD)**: This is a local MATLAB database that compiles the photoionisation cross-section and asymmetry parameter data of the elements. This is useful when modelling the total photoelectron intensity that originates from a given layer of a sample when performing ARPES / XPS experiments. Accessible in MATLAB via 'get_pixsad_props()'.   
+- **Photoionisation Cross-Section and Asymmetry Database (PIXSAD)**: This is a local MATLAB database that compiles the photoionization cross-sections and asymmetry parameters of all elements between 1 - 98. A range of formalisms are available, including the Scofield (1973), Yeh & Lindau (1985), Trzhaskovskaya (2018) and Cant (2022) methods. Accessible in MATLAB via the function 'calc_xsect()' or a dedicated UI App by calling 'App_MatBase'.      
 
-- **Photoionisation Energy and Fluorescence Database (PIEFD)**: This is a local MATLAB database that compiles the photoionisation energy and fluorescence yield data of the elements. Accessible in MATLAB via 'get_piefd_props()'.    
+- **Photoionisation Energy and Fluorescence Database (PIEFD)**: This local MATLAB database compiles photoionisation energy and fluorescence yield data for all elements from 1 to 98. It includes data from various sources, such as the Moulder (1999), Trzhaskovskaya (2018), and Cant (2022) databases. To find the binding energy of a specific element and core level, you can use the 'calc_be()' function or the dedicated UI app by calling 'App_MatBase'.      
 
-- **PES Quantification, Modelling & Fitting**: A powerful toolbox of functions for handling photoelectron spectroscopy (PES) data. Inside, you’ll find functions for data processing, compositional analysis, overlayer thickness determination, sensitivity factor determination and curve fitting using various models. A suite of functions are also available, from Peak-Like Models (Gaussian, Lorentzian, Voigt, Doniach-Sunjic & Pseudo-Voigt) to TopHat- and Step-Like functions for plotting atomic concentration curves.
+- **PES Quantification, Modelling & Fitting**: Discover a powerful toolbox designed for handling photoelectron spectroscopy (PES) data. This comprehensive suite includes functions for data processing, compositional analysis, overlayer thickness determination, sensitivity factor determination, and curve fitting using various models. You’ll find a range of curve fitting functions, including Peak-Like Models (Gaussian, Lorentzian, Voigt, Doniach-Sunjic, and Pseudo-Voigt), as well as TopHat- and Step-Like functions for plotting atomic concentration curves. Additionally, various background subtraction methods (Polynomial, Shirley, and Tougaard) are available. For an enhanced user experience, a dedicated UI App for curve fitting can be accessed by calling ‘App_MatBase’.     
 
 
 ## MATLAB Version control  
@@ -130,7 +130,7 @@ Cant Database (2018-2019):
 [[25](https://www.xpsdata.com/xpsdata.htm)] XPS Information and Application Notes   
 [[26](https://xpsdatabase.net/)] B. Vincent Crist: International XPS Database  
 [[27](https://xpslibrary.com/)] B. Vincent Crist: XPS Information and Application Notes  
-[[28](https://a-x-s.org/research/cross-sections/)] A. Regoutz: Source of the Digitization of Photoionization Parameters  
+[[28](https://a-x-s.org/research/cross-sections/)] A. Regoutz: Source of the Digitized Photoionization Parameters  
 
 
 ## License  
