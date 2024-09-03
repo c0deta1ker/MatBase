@@ -19,25 +19,25 @@ This app is designed for researchers, students, and enthusiasts who are interest
 
 ## MatBase Apps
 **(1) MatBase Main Menu**: The main MATLAB App that provides seamless navigation to all other MATLAB apps using the comprehensive Materials Properties Database. Accessible in MATLAB via 'App_MatBase'.
-![App_MainMenu](MatBase-v1.2/0_ReadMeImages/App_MainMenu.png)  
+![App_MatBase](MatBase-v1.2/0_ReadMeImages/App_MatBase.png)  
 
 **(2) Materials Database Editor App**: Effortlessly manage the Materials Properties Database with this user-friendly app. Add, delete, and edit entries with ease, streamlining your workflow and enhancing the efficiency of other apps that utilize the database for calculations. Accessible in MATLAB via the MatBase Main Menu, or explicitely by typing 'App_MatBase_DatabaseEditor'.
-![App_MaterialsDatabaseEditor](MatBase-v1.2/0_ReadMeImages/App_MaterialsDatabaseEditor.png)  
+![App_MatBase_DatabaseEditor](MatBase-v1.2/0_ReadMeImages/App_MatBase_DatabaseEditor.png)  
 
 **(3) Crystallography App**: Explore the intricacies of crystal structures with our powerful visualization app. View unit cells in both real and reciprocal space, calculate the Brillouin zone, and extract 2D slices for in-depth analysis. Conveniently access material parameters from the Materials Properties Database or manually enter data for materials not included in the database. Unlock new insights and enhance your understanding of crystal structures with ease! Accessible in MATLAB via the MatBase Main Menu, or explicitely by typing 'App_MatBase_Crystallography'.
-![App_Crystallography](MatBase-v1.2/0_ReadMeImages/App_Crystallography.png)  
+![App_MatBase_Crystallography](MatBase-v1.2/0_ReadMeImages/App_MatBase_Crystallography.png)  
 
 **(4) IMFP Calculator App**: Achieve unparalleled precision in your calculations of electron inelastic mean free path with our advanced app. Utilize a range of formalisms, including the Universal, TPP-2M, S1, S2 and JTP methods, to achieve the most accurate results. Conveniently access material parameters from the Materials Properties Database or manually enter data for materials not included in the database. Enhance your workflow and achieve new levels of accuracy with ease! Accessible in MATLAB via the MatBase Main Menu, or explicitely by typing 'App_MatBase_IMFP'.
-![App_IMFP](MatBase-v1.2/0_ReadMeImages/App_IMFP.png)  
+![App_MatBase_IMFP](MatBase-v1.2/0_ReadMeImages/App_MatBase_IMFP.png)  
 
 **(5) Photoionization Database App**: Extract the binding energy spectrum, photoionization cross-sections, and photoionization asymmetry parameters of all elements between 1-118 with our powerful app. Easily identify the best core-levels to probe by finding the maximum cross-sections and gain a comprehensive overview of the core-level spectra of all elements! Accessible in MATLAB via the MatBase Main Menu, or explicitely by typing 'App_MatBase_Photoionization'.
-![App_Photoionization](MatBase-v1.2/0_ReadMeImages/App_Photoionization.png)  
+![App_MatBase_Photoionization](MatBase-v1.2/0_ReadMeImages/App_MatBase_Photoionization.png)  
 
 **(6) N-Layer PES Intensity Model App**: Create a sample stack of N layers with different materials and thicknesses from the Materials Properties Database. Then, use the Photoionization Cross-Section and Asymmetry Database to get the core-levels, cross-sections, and asymmetry parameters for each layer. The PES intensities for each layer are then determined using the Beer-Lambert law, modulated by the electron inelastic mean free path calculated using the JTP formalism whilst considering the experimental geometry. This will help you compare XPS depth profile data (spectral intensity versus photon energy or emission angle), and determine the layer thicknesses in your samples from XPS! Accessible in MATLAB via the MatBase Main Menu, or explicitely by typing 'App_MatBase_NLayerPESIntensities'.  
-![App_NLayerPESIntensities](MatBase-v1.2/0_ReadMeImages/App_NLayerPESIntensities.png)  
+![App_MatBase_NLayerModeller](MatBase-v1.2/0_ReadMeImages/App_MatBase_NLayerModeller.png)  
 
 **(7) PES Curve Fitting App**: Easily load your XPS data from a standard .txt file and construct a series of curves, including principal and spin-orbit split components. Begin by developing an initial model (using Gaussian, Lorentzian, Voigt and Doniach-Sunjic Peak Shapes), applying background subtraction (Polynomial, Shirley, and Tougaard) and setting constraints, an optimization algorithm is then run to achieve the best fit. Accessible in MATLAB via the MatBase Main Menu, or explicitely by typing 'App_MatBase_PESCurveFitter'.  
-![App_PESCurveFitter](MatBase-v1.2/0_ReadMeImages/App_PESCurveFitter.png)   
+![App_MatBase_PESCurveFitter](MatBase-v1.2/0_ReadMeImages/App_MatBase_PESCurveFitter.png)   
 
 
 ## List of Available Databases  
