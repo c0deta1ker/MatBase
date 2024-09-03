@@ -99,8 +99,8 @@ JTP Formalism (2023):
 Scofield Database (1973):  
 [9](https://doi.org/10.2172/4545040) _Scofield, J. H. "Theoretical photoionization cross sections from 1 to 1500 keV"_   
 
-Yeh & Lindau Database (1985): 
-[10](https://doi.org/10.1016/0092-640X(85)90016-6) _Yeh, J. J., and I. Lindau. "Atomic subshell photoionization cross sections and asymmetry parameters: 1⩽ Z⩽ 103." Atomic data and nuclear data tables 32.1 (1985): 1-155_   
+Yeh & Lindau Database (1985):   
+[[10](https://doi.org/10.1016/0092-640X(85)90016-6)] _Yeh, J. J., and I. Lindau. "Atomic subshell photoionization cross sections and asymmetry parameters: 1⩽ Z⩽ 103." Atomic data and nuclear data tables 32.1 (1985): 1-155_   
 
 Moulder Binding Energies Database (1993): 
 [11](https://scholar.google.com/scholar_url?url=https://www.researchgate.net/profile/Akif-Zeb/post/How_can_I_evaluate_at_of_N_in_TiO2_using_XPS_technique/attachment/5f3ebac4ce377e00016e3bc5/AS%253A926669195993088%25401597946561045/download/MANXPS.pdf&hl=en&sa=T&oi=gsb-ggp&ct=res&cd=0&d=11053645406167494942&ei=Aw3XZr_mFv-Xy9YPgcCeoQo&scisig=AFWwaeajp-vE3wtFLu1NvP33L_uI) _Moulder, John F. et al. “Handbook of X-Ray Photoelectron Spectroscopy.” (1992)._   
