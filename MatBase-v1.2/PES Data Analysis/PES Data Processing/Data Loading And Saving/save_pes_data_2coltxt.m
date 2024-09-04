@@ -1,19 +1,20 @@
-function save_pes_data(dataStr, SaveFullName)
-% save_pes_data(dataStr, SaveFullName)
-%   Saves the dataStr object as a *.mat MATLAB structure file.
+function save_pes_data_2coltxt(xdat, ydat, SaveFullName)
+% save_pes_data_2coltxt(xdat, ydat, SaveFullName)
+%   Saves the input data as a *.txt file with 2 columns.
 %
 %   IN:
-%   -   dataStr:            MATLAB data structure containing all the ADRESS data.
+%   -   xdat:               [nX×1] array of the x-axis (binding energy)
+%   -   ydat:               [nY×1] array of the y-axis (intensity)
 %   -   SaveFullName:       string or char of the full path + filename to be saved (if empty, it is prompted)
 
 %% Default parameters
-if nargin < 2; SaveFullName = ''; end
+if nargin < 3; SaveFullName = ''; end
 if isempty(SaveFullName); SaveFullName = ''; end
-if isfield(dataStr, 'FileName');    FileName = dataStr.FileName;
-else;                               FileName = '';
-end
+if isrow(xdat); xdat = xdat'; end           % -- Ensure x-data is a column vector
+if isrow(ydat); ydat = ydat'; end           % -- Ensure y-data is a column vector
 %% 1 - User defined FileName and Path for the processed data
 if isempty(SaveFullName)
+    FileName = string(yyyymmdd(datetime)) + "_";
     filter = {'*.mat'};
     [save_filename, save_filepath] = uiputfile(filter, 'Save the data...', FileName);
     save_fullfile = char(string(save_filepath) + string(save_filename));
@@ -23,6 +24,7 @@ else
     save_fullfile = char(string(SaveFullName) + ".mat");
 end
 %% 2 - Executing the saving of the data
-save(char(save_fullfile), 'dataStr', '-v7.3');
-disp('-> saved data : '); display(dataStr);
+T = table(xdat, ydat);
+writetable(T, save_fullfile);
+disp('-> saved data : '); display(T);
 end
