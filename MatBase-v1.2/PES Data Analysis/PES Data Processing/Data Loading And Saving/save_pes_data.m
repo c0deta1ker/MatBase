@@ -1,5 +1,5 @@
-function save_pes_data_mat(dataStr, SaveFullName)
-% save_pes_data_mat(dataStr, SaveFullName)
+function save_pes_data(dataStr, SaveFullName)
+% save_pes_data(dataStr, SaveFullName)
 %   Saves the dataStr object as a *.mat MATLAB structure file.
 %
 %   IN:
