@@ -36,8 +36,8 @@ F2      = amplitude .* F2 / max(F2);
 f1      = F1(x<center); if size(f1, 2) > 1; f1 = f1'; end
 f2      = F2(x>=center); if size(f2, 2) > 1; f2 = f2'; end
 % -- Concatinating the data over the domain
-if isrow(f1);   y    = horzcat(f1, f2);
-else;           y    = vertcat(f1, f2);
+if isrow(f1) && length(f1) > 1;     y    = horzcat(f1, f2);
+else;                               y    = vertcat(f1, f2);
 end
 %% Validity check on the outputs
 % if isrow(y); y = y'; end   % -- Ensure y-data is a column vector

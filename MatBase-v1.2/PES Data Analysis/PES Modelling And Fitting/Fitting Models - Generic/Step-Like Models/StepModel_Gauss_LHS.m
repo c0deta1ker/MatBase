@@ -36,7 +36,7 @@ F3      = amplitude .* F3 / max(F3);
 f1      = F1(x>center); if size(f1, 2) > 1; f1 = f1'; end
 f3      = F3(x<=center); if size(f3, 2) > 1; f3 = f3'; end
 % -- Concatinating the data over the domain
-if isrow(f1);   y    = horzcat(f3, f1);
+if isrow(f1) && length(f1) > 1;   y    = horzcat(f3, f1);
 else;           y    = vertcat(f3, f1);
 end
 %% Validity check on the outputs
