@@ -19,17 +19,22 @@ if isempty(FileName);   FileName = '';  end
 if isempty(PathName);   PathName = '';  end
 disp('Loading in P22 text-file data...')
 %% 1 - Loading and reading in the .txt file
-data_table          = readtable(string(PathName) + string(FileName));
-dataStr.TimeStamp    = datetime;
-dataStr.PathName     = PathName;
-dataStr.FileName     = FileName;
-dataStr.Type         = "PES";
-dataStr.hv           = [];
-dataStr.thtM         = [];
-dataStr.sweeps       = size(data_table(:,2:end-1), 2);
-dataStr.ydat_sweeps  = table2array(data_table(:,2:end-1));
-dataStr.xdat         = -1.*round(table2array(data_table(:,1)),3);
-dataStr.ydat         = round(mean(table2array(data_table(:,end)),2),3);
-dataStr.xdat_lims    = round([min(dataStr.xdat(:)), max(dataStr.xdat(:))],3);
-dataStr.ydat_lims    = round([min(dataStr.ydat(:)), max(dataStr.ydat(:))],3);
+data_table              = readtable(string(PathName) + string(FileName));
+dataStr.TimeStamp       = datetime;
+dataStr.PathName        = PathName;
+dataStr.FileName        = FileName;
+dataStr.Type            = "PES-P22";
+dataStr.hv              = [];
+dataStr.thtM            = [];
+if size(data_table, 2) == 2
+    dataStr.sweeps      = 1;
+    dataStr.ydat_sweeps = table2array(data_table(:,2));
+else
+    dataStr.sweeps      = size(data_table(:,2:end-1), 2);
+    dataStr.ydat_sweeps = table2array(data_table(:,2:end-1));
+end
+dataStr.xdat            = -1.*round(table2array(data_table(:,1)),4);
+dataStr.ydat            = round(mean(table2array(data_table(:,end)),2),4);
+dataStr.xdat_lims       = round([min(dataStr.xdat(:)), max(dataStr.xdat(:))],4);
+dataStr.ydat_lims       = round([min(dataStr.ydat(:)), max(dataStr.ydat(:))],4);
 end
